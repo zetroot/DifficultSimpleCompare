@@ -12,15 +12,8 @@ public class PropertyTests
         Prop.ForAll<Transaction, Transaction>((l, r) =>
         {
             var equals = sut.Equals(l, r);
-            var diff = new[] { l }.Except(new[] { r }, sut).ToList(); 
-            if (equals)
-            {
-                diff.Should().BeEmpty();
-            }
-            else
-            {
-                diff.Should().NotBeEmpty();
-            }
+            var diff = new[] { l }.Except(new[] { r }, sut).ToList();
+            diff.Any().Should().Be(!equals);
         }).QuickCheckThrowOnFailure();
     }
 }
