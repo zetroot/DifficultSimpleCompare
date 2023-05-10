@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifficultSimpleCompare", "tests/DifficultSimpleCompare.csproj", "{6252EAB7-EE45-4EB8-9A8B-23EC5AE1FAFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetHashCodeBench", "benchmark\GetHashCodeBench.csproj", "{BF9EEF9C-A484-4BF0-8EAF-8FFC26E808BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{6252EAB7-EE45-4EB8-9A8B-23EC5AE1FAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6252EAB7-EE45-4EB8-9A8B-23EC5AE1FAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6252EAB7-EE45-4EB8-9A8B-23EC5AE1FAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF9EEF9C-A484-4BF0-8EAF-8FFC26E808BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9EEF9C-A484-4BF0-8EAF-8FFC26E808BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9EEF9C-A484-4BF0-8EAF-8FFC26E808BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9EEF9C-A484-4BF0-8EAF-8FFC26E808BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
